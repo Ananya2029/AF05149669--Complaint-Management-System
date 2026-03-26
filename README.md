@@ -21,20 +21,6 @@ A console-based Complaint Management System built using Java and MySQL. This sys
 
 ---
 
-## 📂 Project Structure
-ComplaintManagementSystem/
-│
-├── src/
-│ ├── com.cms.main → Main application (entry point)
-│ ├── com.cms.dao → Database operations (CRUD logic)
-│ ├── com.cms.model → Complaint entity class
-│ └── com.cms.util → Database connection utility
-│
-├── lib/
-│ └── mysql-connector-j.jar
-
-
----
 
 ## 🗄️ Database Setup
 ```sql
