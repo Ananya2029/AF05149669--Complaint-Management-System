@@ -21,40 +21,30 @@ A console-based Complaint Management System built using Java and MySQL. This sys
 
 ---
 
+## ▶️ How to Run
+- Clone the repository
+- Import into Eclipse as a Java Project
+- Add MySQL Connector/J (JDBC driver) to the project
+- Configure database credentials in DBConnection.java
+- Run MainApp.java
 
-## 🗄️ Database Setup
-```sql
-CREATE DATABASE cmsdb;
+---
 
-USE cmsdb;
+## 📌 Learning Outcomes
+- JDBC connectivity with MySQL
+- CRUD operations in Java
+- Layered architecture (DAO, Model, Utility)
+- Managing and tracking data efficiently
 
-CREATE TABLE complaint (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    user_name VARCHAR(50),
-    email VARCHAR(50),
-    complaint_text TEXT,
-    status VARCHAR(20)
-);
+---
 
-▶️ How to Run
-Clone the repository
-Import into Eclipse as a Java Project
-Add MySQL Connector/J (JDBC driver) to the project
-Configure database credentials in DBConnection.java
-Run MainApp.java
+## 🔮 Future Enhancements
+- GUI using Java Swing / JavaFX
+- REST API using Spring Boot
+- User authentication system
+- Dashboard with Power BI integration
 
-📌 Learning Outcomes
-JDBC connectivity with MySQL
-CRUD operations in Java
-Layered architecture (DAO, Model, Utility)
-Managing and tracking data efficiently
+---
 
-🔮 Future Enhancements
-GUI using Java Swing / JavaFX
-REST API using Spring Boot
-User authentication system
-Dashboard with Power BI integration
-
-
-👩‍💻 Author
-Ananya
+## 👩‍💻 Author
+- Ananya
