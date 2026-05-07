@@ -23,7 +23,9 @@ public class Main {
             System.out.println("3. Exit");
             System.out.print("Enter choice: ");
 
-            int ch = sc.nextInt(); sc.nextLine();
+            int ch = sc.nextInt(); 
+            
+            sc.nextLine();
 
             if (ch == 1) {
                 System.out.print("Name: ");
@@ -68,6 +70,7 @@ public class Main {
             System.out.println("3. Analytics");
             System.out.println("4. Dashboard");
             System.out.println("5. Exit");
+            System.out.print("Enter choice: ");
 
             int ch = sc.nextInt();
 
@@ -106,6 +109,7 @@ public class Main {
             System.out.println("1. Add Complaint");
             System.out.println("2. View My Complaints");
             System.out.println("3. Exit");
+            System.out.println("Enter choice:");
 
             int ch = sc.nextInt(); sc.nextLine();
 
